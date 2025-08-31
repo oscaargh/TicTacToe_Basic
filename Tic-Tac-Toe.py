@@ -1,14 +1,4 @@
 from Functions_for_Tic_Tac_Toe import check_game_state
-"""
-while True:
-    playing_field = input("Input your game here: ") # The player inputs all X's and O's
-    if all(char in ("X", "O", "_") for char in playing_field):
-        break
-    else:
-        print("Invalid symbols, only 'X', 'O' and '_' are allowed")
-
-playing_field = list(playing_field) # To make it iterable
-"""
 
 matrix = [[" "," "," "],[" "," "," "],[" "," "," "]]
 
