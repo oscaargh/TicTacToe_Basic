@@ -25,7 +25,7 @@ def impossible(a):
     return False
 
 def game_not_finished(a):
-    if " " in a and not x_wins(a) and not o_wins(a): # " " = empty spaces on the board, and x/o has not won yet
+    if " " in a and not x_wins(a) and not o_wins(a):
         return True
     return False
 
